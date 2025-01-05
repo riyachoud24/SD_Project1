@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clothing Shop</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Clothing Shop</h1>
+
+    <!-- Search Section -->
+    <div>
+        <h3>Search Product</h3>
+        <input type="text" id="searchInput" placeholder="Enter product name" />
+        <button id="searchButton">Search</button>
+    </div>
+
+    <!-- Add Product Section -->
+    <div>
+        <h3>Add Product</h3>
+        <input type="text" id="addName" placeholder="Product name" />
+        <input type="number" id="addPrice" placeholder="Price" />
+        <input type="number" id="addStock" placeholder="Stock" />
+        <button id="addButton">Add Product</button>
+    </div>
+
+    <!-- Update Product Section -->
+    <div>
+        <h3>Update Product</h3>
+        <input type="text" id="updateName" placeholder="Product name" />
+        <input type="number" id="updatePrice" placeholder="New price" />
+        <input type="number" id="updateStock" placeholder="New stock" />
+        <button id="updateButton">Update Product</button>
+    </div>
+
+    <!-- Delete Product Section -->
+    <div>
+        <h3>Delete Product</h3>
+        <input type="text" id="deleteName" placeholder="Product name" />
+        <button id="deleteButton">Delete Product</button>
+    </div>
+
+    <div id="messageContainer"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
